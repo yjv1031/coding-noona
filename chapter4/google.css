@@ -61,6 +61,10 @@ body {
   margin: 0 5px;
 }
 
+.offered_area {
+  margin-top: 30px;
+}
+
 .button_area button:hover {
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
   background-color: #f8f9fa;
@@ -73,4 +77,32 @@ body {
   bottom: 0px;
   background-color: #f2f2f2;
   width: 100%;
+}
+
+.footer .footer_first {
+  padding: 0px 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c3c6c9;
+}
+
+.footer .footer_second {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer_second a {
+  text-decoration: none;
+}
+
+.footer .footer_second a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer_second span:nth-child(1) a {
+  margin-left: 30px;
+}
+
+.footer .footer_second span:nth-child(2) a {
+  margin-right: 30px;
 }
